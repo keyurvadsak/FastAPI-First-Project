@@ -5,6 +5,7 @@ class PostBase(BaseModel):
     title : str
     content: str
     
+    
 class CreatePost(PostBase):
     pass
 
